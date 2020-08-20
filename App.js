@@ -32,12 +32,12 @@ const switchNavigator = createSwitchNavigator({
                   <Stack.Screen name="Signup" component={SignupScreen}/>
                   <Stack.Screen name="Account" component={AccountScreen}/>
                </Stack.Navigator>,
-  //  TrackOutros: () =>
-  //    <Tab.Navigator>
-  //       <Tab.Screen name="trackList" component={MainFlow} />
-  //       <Tab.Screen name="track-create" component={TrackCreateScreen}/>
-  //       <Tab.Screen name="account" component={AccountScreen}/>
-  //    </Tab.Navigator>
+   TrackOutros: () =>
+     <Tab.Navigator>
+        <Tab.Screen name="trackList" component={MainFlow} />
+        <Tab.Screen name="track-create" component={TrackCreateScreen}/>
+        <Tab.Screen name="account" component={AccountScreen}/>
+     </Tab.Navigator>
      
    
   // mainFlow: Track
